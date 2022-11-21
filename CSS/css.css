@@ -240,16 +240,6 @@ body {
 	margin-right: 4%;
   }
 
-.imgrec{
-    max-height: 50%;
-    max-width: 60%;
-	height: 200px;
-	width: 300px;
-	border: solid 4px;
-    border-radius: 30px;
-	border-color: #ac92b4;
-}
-
 .topico{
   text-decoration:none;
 	color: #84648c;
