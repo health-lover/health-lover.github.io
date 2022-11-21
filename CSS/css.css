@@ -285,40 +285,41 @@ h1{
 	margin-bottom: 1%;
 }
 
-.container1 {
-	height: 350px;
-	border-radius: 20px;
-	box-shadow: 0 3px 10px 0 rgba(104, 104, 104, 0.733);
+.container {
+	display: flex;
+	align-items: center;
+	min-width: 850px;
+	margin-bottom: 1%;
 }
 
-.container1 ul li{
-	list-style: none;
-	width:20%;
-	height:300px;
-	box-shadow: 0 3px 10px 0 #ccc;
-  }
-  .container1 ul li:hover{
-	opacity: 0.9;
-  }
+.container1{
+    background-color: #ac92b4;
+    border-radius: 20px;
+    width: 300px;
   
-  .container1 ul li .bottom{
-	width: 300px;
-	height:50px;
-	line-height: 50px;
-	background: #ac92b4;    
-	text-align: center;
-
-	border-top-left-radius: 20px;
-	border-top-right-radius: 20px;
-  }
+    box-shadow:0 3px 10px 0 rgba(43, 43, 43, 0.733);
   
-  .imgcom{
-	width: 300px;
-	height: 300px;
-
-	border-bottom-left-radius: 20px;
-	border-bottom-right-radius: 20px;
-  }
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    }
+  
+    .container1:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+   }
+  
+   .ordem {
+    height: 50px;
+    text-align: center;
+    }
+  
+    .imgcom {
+      height: 300px;
+      width: 300px;
+  
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+    }
 
   .imgrec{
 	height: 300px;
