@@ -262,22 +262,6 @@ video {
   	margin-right: 5%;
 }
 
-h1{
-  width: 100%;
-	float: right;
-	text-align: center;
-  color: #653362; 
-  font-family: Franklin Gothic;
-}
-
-.h1rece {
-	text-align:center; 
-	color: #653362; 
-	font-family: Franklin Gothic;
-	float: none; 
-	margin-top: 15px;
-}
-
 .container {
 	display: flex;
 	align-items: center;
@@ -363,9 +347,19 @@ h2{
 	margin-bottom: 0;
 }
 
+h5{
+	font-family: MochaCookies;
+	font-size: 35px;
+	color: #9a7e96;
+	text-align: center;
+}
+
 .h1rece{
 	font-family: MochaCookies;
 	font-size: 60px;
+	text-align:center; 
+	color: #653362; 
+	margin-top: 15px;
 }
 
 #ingredientes {
