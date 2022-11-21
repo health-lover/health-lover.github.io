@@ -240,11 +240,6 @@ body {
 	margin-right: 4%;
   }
 
-
-.logo{
-	
-}
-
 .imgrec{
     max-height: 50%;
     max-width: 60%;
@@ -336,7 +331,6 @@ h1{
   }
 
 #contact {
-	position: ;
 	color: #653362;
 	height: 60px;
 	min-width: 50px;
@@ -370,7 +364,7 @@ h2{
 
 #ingredientes {
 	font-size: 20px;
-	margin-left: 1%;
+	margin-left: 3%;
 	margin-top: 0;
 }
 
@@ -383,12 +377,13 @@ h2{
 	width: 120%;
 	margin-bottom: 1%;
 	margin-right: 20%;
+	margin-left: 1%;
 }
 
 #imagem {
 	border-radius: 15px;
 	width: 600px;
-    	height: 430px;
+    height: 430px;
 }
 
 p.numbered:before
@@ -398,6 +393,7 @@ p.numbered:before
 }
 
 .numbered {
+	font-size: 20px;
 	padding: 5px;
 	margin-right: 5%;
 }
@@ -409,21 +405,6 @@ p.numbered:before
 
 .underline {
 	color: #8c6a96;
-}
-
-.imgcom{
-	height: 300px;
-	width: 300x;
-	border: solid 4px;
-	border-radius: 20px;
-	border-color: #ac92b4;
-	-webkit-transition: -webkit-transform .5s ease;
-   transition: transform .5s ease;
-}
-
-.imgcom:hover {
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
 }
 
 .myslides {
