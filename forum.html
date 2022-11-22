@@ -74,7 +74,7 @@
         var container = document.querySelector('ol');
         for (let thread of threads) {
             var html = `
-            <li class="row">
+            <div class="row">
                 <a class="a1" href="thread.html?${thread.id}">
                     <h4 class="title">
                         ${thread.title}
@@ -88,7 +88,7 @@
                         </p>
                     </div>
                 </a>
-            </li>
+            </div>
             `
             container.insertAdjacentHTML('beforeend', html);
         }
