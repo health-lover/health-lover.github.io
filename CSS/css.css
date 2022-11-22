@@ -24,6 +24,7 @@ body {
   background-color: #e2d0df;
   position: relative;
   min-height: 100vh;
+  min-width: 1100px;
   width: 100%;
 }
   
@@ -260,20 +261,11 @@ video {
 .main {
 	margin-left: 100px;
   	margin-right: 5%;
-	min-width: 850px;
 }
 
 .container {
 	display: flex;
 	align-items: center;
-	min-width: 850px;
-	margin-bottom: 1%;
-}
-
-.container {
-	display: flex;
-	align-items: center;
-	min-width: 850px;
 	margin-bottom: 1%;
 }
 
@@ -355,7 +347,6 @@ h5{
 	text-align: center;
 
 	margin-bottom: 3%;
-	margin-top: 2%;
 }
 
 .h1rece{
